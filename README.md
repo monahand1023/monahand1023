@@ -22,9 +22,8 @@ Most of what's below is built end-to-end: the hard backend, the GPU kernel, *and
 ### 🧰 What I work with
 
 **Languages** &nbsp;`Go` · `C` · `Python` · `TypeScript` · `Java`
-**AI / ML** &nbsp;Local-first inference · CLIP · Whisper · Ollama · LLaVA · RAG · MCP · Amazon Bedrock
-**Cloud** &nbsp;AWS Lambda · SAM · CloudFormation · DynamoDB · ECS Fargate · Amplify
-**Systems** &nbsp;Metal GPU compute · ARM NEON SIMD · lock-free concurrency · serverless
+**AI / ML** &nbsp;Local-first inference (CLIP, Whisper, Ollama) · RAG · MCP
+**Systems** &nbsp;Metal GPU compute · ARM NEON SIMD · lock-free concurrency · AWS serverless
 
 ---
 
