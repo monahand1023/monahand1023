@@ -27,7 +27,7 @@ Two more, built and shipped solo end-to-end, from infrastructure through storefr
 
 ---
 
-### Selected projects
+### Open-source projects
 
 | Project | What it is | Stack |
 |---|---|---|
