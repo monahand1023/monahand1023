@@ -2,11 +2,21 @@
 
 Engineering leader. Ex-Amazon Software Development Manager (10 years, up to 34 engineers across 3 teams), most recently VP of Technology at Sigo Seguros. I build AI-native engineering organizations, and I still ship.
 
-My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents) and using it to transform how engineering teams build software. The projects below are shipped end-to-end with AI-assisted development, spanning systems-level C, Go services, Python AI pipelines, and TypeScript front-ends, with a bias toward local-first tools you can run and audit yourself.
+My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents) and using it to transform how engineering teams build software. The projects below are shipped end-to-end with AI-assisted development, spanning systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends, with a bias toward local-first tools you can run and audit yourself.
 
 ---
 
-### Currently building: lens
+### Recently shipped: Panorama
+
+**Panorama** turns an iPhone into a spherical-panorama camera — a modern, personal rebuild of the Photosynth experience. A guided ARKit sweep auto-captures frames, corrects for the phone's own tracking error, and stitches them into a seamless 360° image on-device with a custom Metal GPU stitcher. Fully local: no cloud, no accounts, no backend, nothing collected.
+
+**App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
+
+*Proprietary, closed source (source not public).*
+
+---
+
+### Also shipped: lens
 
 **[lens](https://lens.supersmall.ai)** is a multi-agent AI audit engine I founded and build solo, now live and taking paying customers. It runs 200+ in-house checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO), with one reasoning agent per dimension grounded in deterministic scanners and every finding cross-verified by multiple frontier models to cut false positives. Output is two reports from one audit, plain-English for founders and engineer-grade for the team, plus a CycloneDX/SPDX SBOM and a prioritized fix-it roadmap.
 
