@@ -8,20 +8,33 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 
 ### Shipped products
 
-**[lens](https://lens.supersmall.ai)** is a multi-agent AI audit engine I founded and build solo, now live and taking paying customers. It runs 200+ in-house checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO), with one reasoning agent per dimension grounded in deterministic scanners and every finding cross-verified by multiple frontier models to cut false positives. Output is two reports from one audit, plain-English for founders and engineer-grade for the team, plus a CycloneDX/SPDX SBOM and a prioritized fix-it roadmap.
+**[lens](https://lens.supersmall.ai)** — multi-agent AI audit engine, founded and built solo, live and taking paying customers.
+- 200+ checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO) — one reasoning agent per dimension, grounded in deterministic scanners, every finding cross-verified by multiple frontier models to cut false positives
+- Also ships as an MCP server, so the audit runs inline in Cursor, Claude Code, or Windsurf before the PR opens
+- One audit produces two reports (plain-English for founders, engineer-grade for the team), a CycloneDX/SPDX SBOM, and a prioritized fix-it roadmap
+- Guardrails: SSRF protection, secret redaction before rendering, repos cloned to a temp dir and deleted after scan. Web app is a React SPA on FastAPI (AWS, DynamoDB) with Google OIDC/PKCE auth, Stripe billing, per-audit token metering, live SSE progress
 
-It also ships as an MCP server, so the audit runs inline in Cursor, Claude Code, or Windsurf before the PR opens. Guardrails include SSRF protection and secret redaction before any report renders; repos are cloned to a temp directory, scanned, and deleted. Deployment is Docker / CloudFormation. The web app, **lens-web**, is a React SPA on a FastAPI backend (AWS, DynamoDB) with Google OIDC/PKCE auth, per-account quotas, Stripe billing, per-audit token metering, and live progress over SSE.
+**Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
-**Live:** [lens.supersmall.ai](https://lens.supersmall.ai) (see a [sample report](https://lens.supersmall.ai/sample))
-
-**Panorama** turns an iPhone into a spherical-panorama camera — a modern, personal rebuild of the Photosynth experience. A guided ARKit sweep auto-captures frames, corrects for the phone's own tracking error, and stitches them into a seamless 360° image on-device with a custom Metal GPU stitcher. Fully local: no cloud, no accounts, no backend, nothing collected.
+**Panorama** — turns an iPhone into a spherical-panorama camera, a modern personal rebuild of the Photosynth experience.
+- Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
+- Stitches into a seamless 360° image on-device with a custom Metal GPU stitcher
+- Fully local: no cloud, no accounts, no backend, nothing collected
 
 **App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
 
-Two more, built and shipped solo end-to-end, from infrastructure through storefront:
+**[Kunkun](https://kunkun.io)** — Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
+- Context-aware corrections: politeness level, JLPT focus (N5–N1), and writer mode (learner vs. native) all shape the AI's response, with a plain-language explanation attached to every fix, not just the fix itself
+- One backend, three surfaces — website, Chrome extension, Google Docs/Slides add-on — all reading live subscription state from the same API
+- Go Lambda on AWS Bedrock (Claude/Nova) for inference, Firebase auth, Stripe subscriptions
 
-- **[Kunkun](https://kunkun.io)** is a Japanese grammar and formality checker delivered as a Chrome extension and Google Docs add-on, running on AWS Bedrock. Real-time keigo, particle, and tense correction with explanations, aligned to JLPT N5 through N1.
-- **[Gaijin Smash](https://gaijin-smash.net)** is a bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese cultural slogans with proper context, not Google Translate. Custom storefront, CloudFront-backed asset pipeline, full catalog and checkout.
+**Live:** [kunkun.io](https://kunkun.io)
+
+**[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans with proper cultural context, not Google Translate.
+- AI content pipeline (image generation, model photography, copy) with human review as the quality gate before anything goes live
+- Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
+
+**Live:** [gaijin-smash.net](https://gaijin-smash.net)
 
 *All four are proprietary, closed source (source not public).*
 
