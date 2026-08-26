@@ -6,7 +6,7 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 
 ---
 
-### Shipped: lens
+### Shipped products
 
 **[lens](https://lens.supersmall.ai)** is a multi-agent AI audit engine I founded and build solo, now live and taking paying customers. It runs 200+ in-house checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO), with one reasoning agent per dimension grounded in deterministic scanners and every finding cross-verified by multiple frontier models to cut false positives. Output is two reports from one audit, plain-English for founders and engineer-grade for the team, plus a CycloneDX/SPDX SBOM and a prioritized fix-it roadmap.
 
@@ -14,28 +14,16 @@ It also ships as an MCP server, so the audit runs inline in Cursor, Claude Code,
 
 **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) (see a [sample report](https://lens.supersmall.ai/sample))
 
-*Proprietary, closed source (source not public).*
-
----
-
-### Also shipped: Panorama
-
 **Panorama** turns an iPhone into a spherical-panorama camera — a modern, personal rebuild of the Photosynth experience. A guided ARKit sweep auto-captures frames, corrects for the phone's own tracking error, and stitches them into a seamless 360° image on-device with a custom Metal GPU stitcher. Fully local: no cloud, no accounts, no backend, nothing collected.
 
 **App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
 
-*Proprietary, closed source (source not public).*
-
----
-
-### Also live in production
-
-Two more products I designed, built, and shipped solo, from infrastructure through storefront:
+Two more, built and shipped solo end-to-end, from infrastructure through storefront:
 
 - **[Kunkun](https://kunkun.io)** is a Japanese grammar and formality checker delivered as a Chrome extension and Google Docs add-on, running on AWS Bedrock. Real-time keigo, particle, and tense correction with explanations, aligned to JLPT N5 through N1.
 - **[Gaijin Smash](https://gaijin-smash.net)** is a bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese cultural slogans with proper context, not Google Translate. Custom storefront, CloudFront-backed asset pipeline, full catalog and checkout.
 
-*Proprietary, closed source (source not public).*
+*All four are proprietary, closed source (source not public).*
 
 ---
 
