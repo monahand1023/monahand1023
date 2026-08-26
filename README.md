@@ -12,7 +12,6 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 - 200+ checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO) — one reasoning agent per dimension, grounded in deterministic scanners, every finding cross-verified by multiple frontier models to cut false positives
 - Also ships as an MCP server, so the audit runs inline in Cursor, Claude Code, or Windsurf before the PR opens
 - One audit produces two reports (plain-English for founders, engineer-grade for the team), a CycloneDX/SPDX SBOM, and a prioritized fix-it roadmap
-- Guardrails: SSRF protection, secret redaction before rendering, repos cloned to a temp dir and deleted after scan. Web app is a React SPA on FastAPI (AWS, DynamoDB) with Google OIDC/PKCE auth, Stripe billing, per-audit token metering, live SSE progress
 
 **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
@@ -58,10 +57,6 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 Amazon (Software Development Manager, ~10 years), LTK, and Sigo Seguros (VP of Technology). At Sigo I led the shift to an AI-native engineering org, roughly 5x daily code output with median PR merge time down 77% and merge quality holding steady, and shipped 6 customer-facing products in 10 months on a 7-engineer team: three Spanish-language voice AI agents, WhatsApp quoting, a broker management platform connecting 15 carriers, and a customer block-list service. Conversion went from 3.5% to 12.9% and the business reached a $1M ARR run-rate.
 
 Trilingual: English, Spanish, and Japanese (JLPT N2). Speaking on production AI agents at ELC and SuperSmall in 2026.
-
-### How I work
-
-Engineering leadership, AI-native delivery, and cloud architecture (AWS) are genuinely hands-on. I ship production code across Go, C, Python, TypeScript, and Java through AI-assisted development. The open-source projects here run mostly on-device: software people can own and audit.
 
 ---
 
