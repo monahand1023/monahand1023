@@ -1,8 +1,8 @@
 # Dan Monahan
 
-Engineering leader, nearly 20 years. A decade at Amazon as a Software Development Manager leading teams of up to 34, then engineering leadership at two startups. I build AI-native engineering organizations, and I still ship.
+Nearly 20 years: teams of up to 34 at Amazon, then engineering leadership at two startups. Below is the work itself — live products you can open, source you can read.
 
-My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production: [ELC](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a) and [SuperSmall](https://luma.com/qtfclu9a).
+My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production.
 
 **Open to VP / Head of Engineering roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
 
