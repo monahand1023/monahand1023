@@ -26,9 +26,18 @@ Every product below was built solo, end-to-end — the same AI-native practices 
 
 **Live:** [kunkun.io](https://kunkun.io)
 
-**[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of Photosynth: a guided ARKit sweep that corrects for the phone's own tracking error, stitched into a seamless 360° image on-device by a custom Metal GPU stitcher. No cloud, no accounts, no backend. **[App Store](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)**
+**[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
+- Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
+- Stitches into a seamless 360° image on-device with a custom Metal GPU stitcher
+- Fully local: no cloud, no accounts, no backend, nothing collected
 
-**[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand, built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard, and an AI content pipeline (image generation, model photography, copy) with human review as the quality gate. **[gaijin-smash.net](https://gaijin-smash.net)**
+**App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
+
+**[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans with proper cultural context, not Google Translate.
+- AI content pipeline (image generation, model photography, copy) with human review as the quality gate before anything goes live
+- Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
+
+**Live:** [gaijin-smash.net](https://gaijin-smash.net)
 
 *All four are proprietary — source not public.*
 
