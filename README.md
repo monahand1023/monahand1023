@@ -2,7 +2,7 @@
 
 Engineering leader. Ex-Amazon Software Development Manager (10 years, up to 34 engineers across 3 teams), most recently VP of Technology at Sigo Seguros. I build AI-native engineering organizations, and I still ship.
 
-My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I've taken a 7-engineer team through that shift, shipping 6 customer-facing products in 10 months — three Spanish-language voice AI agents, WhatsApp quoting, and a broker platform connecting 15 carriers.
+My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I've taken a 7-engineer team through that shift, shipping 6 customer-facing products in 10 months — three Spanish-language voice AI agents, WhatsApp quoting, and a broker platform connecting 15 carriers. I host and speak on getting agents past the demo and into production: [ELC](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a) and [SuperSmall](https://luma.com/qtfclu9a).
 
 The projects below are shipped end-to-end with AI-assisted development, across systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends. I lean toward local-first tools you can run and audit yourself.
 
