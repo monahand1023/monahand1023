@@ -1,23 +1,12 @@
 # Dan Monahan
 
-Engineering leader, nearly 20 years across Amazon, startups, and solo ventures. I build AI-native engineering organizations, and I still ship.
+Engineering leader, nearly 20 years. Four Software Development Manager roles at Amazon over 10 years leading teams of up to 34, then engineering leadership at LTK and as VP of Technology at Sigo Seguros. I build AI-native engineering organizations, and I still ship.
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production: [ELC](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a) and [SuperSmall](https://luma.com/qtfclu9a).
 
 The projects below are shipped end-to-end with AI-assisted development, across systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends. I lean toward local-first tools you can run and audit yourself.
 
 Trilingual: native English and Spanish, advanced Japanese (JLPT N2) — which is why several of the products below ship in Spanish or Japanese rather than in translation.
-
----
-
-### Leading engineering teams
-
-Four Software Development Manager roles at Amazon over 10 years, running teams from 7 to 34 engineers, then engineering leadership at two startups.
-
-- Founded Amazon's Automated Media Production team: a 0-to-1 generative AI initiative, 9 engineers hired in 4 months, shipping a curated content platform to 10 million monthly users
-- Ran an organization of 34 across 3 teams on Amazon's customer profile pages, Top Contributor programs, and brand stores; earlier led 14 engineers at Amazon Japan delivering 20+ cross-functional projects a year
-- At LTK, led the Browse team building the creator shopping experience for millions of daily users across Go, Swift, Kotlin, and Vue, and authored the Content & Discovery and Android platform strategies
-- As VP of Technology at Sigo Seguros, led a post-layoff team through both an AI-native transformation and an MGA-to-broker pivot, shipping 6 customer-facing products in 11 months
 
 ---
 
