@@ -4,7 +4,7 @@ Nearly 20 years: teams of up to 34 at Amazon, then engineering leadership at two
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production.
 
-**Open to VP / Head of Engineering roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
+**Open to engineering leadership and FDE roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
 
 ---
 
