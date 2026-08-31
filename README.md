@@ -4,8 +4,6 @@ Engineering leader. Ex-Amazon Software Development Manager (10 years, up to 34 e
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents) and using it to transform how engineering teams build software. The projects below are shipped end-to-end with AI-assisted development, spanning systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends, with a bias toward local-first tools you can run and audit yourself.
 
-Trilingual: English, Spanish, Japanese (JLPT N2). Speaking on production AI agents at [ELC](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a) (host, July 2026) and [SuperSmall](https://luma.com/qtfclu9a) (featured speaker, June 2026). Find me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
-
 ---
 
 ### Shipped products
@@ -51,3 +49,15 @@ Trilingual: English, Spanish, Japanese (JLPT N2). Speaking on production AI agen
 | **[cleancut](https://github.com/monahand1023/cleancut)** | Drop in a video, get back a cleaned `.mp4`: profanity muted, explicit scenes cut. Layered local AI stack (Whisper, Ollama, NudeNet + LLaVA, HF audio models). Every cut is auditable. | `Python` `Whisper` `Vision` |
 | **[claude-code-skills](https://github.com/monahand1023/claude-code-skills)** | 12 drop-in Claude Code skills for dev workflow and AWS ops. Auto-discover your AWS resources at runtime, no config files. | `Tooling` `AWS` `DX` |
 | **[TPSGenerator](https://github.com/monahand1023/TPSGenerator)** | Java load tester for HTTP APIs: 12+ traffic patterns, lock-free HdrHistogram metrics, circuit breaker, real-time resource monitoring. Pairs with [TPSGenerator-Server](https://github.com/monahand1023/TPSGenerator-Server). | `Java` `Concurrency` |
+
+---
+
+### Speaking
+
+**[ELC: Production AI Agents, Beyond the Demo](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a)** — hosted, July 2026. Roundtable on the gap between AI agent demos and production-reliable systems: where agents actually run in production versus stay stuck in pilot, what breaks under real users, and how you monitor a system where there's no single correct output.
+
+**[SuperSmall: Vibe-Code to Production](https://luma.com/qtfclu9a)** — featured speaker, June 2026. Workshop on taking AI-generated prototypes (Lovable, Cursor, Replit) to production: auth, databases, deployment, performance, with live Q&A on attendees' own projects.
+
+---
+
+Trilingual: English, Spanish, Japanese (JLPT N2). Find me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
