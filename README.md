@@ -19,7 +19,7 @@ Trilingual: native English and Spanish, advanced Japanese (JLPT N2) — which is
 
 **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
-**Panorama** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
+**[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
 - Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
 - Stitches into a seamless 360° image on-device with a custom Metal GPU stitcher
 - Fully local: no cloud, no accounts, no backend, nothing collected
