@@ -1,6 +1,6 @@
 # Dan Monahan
 
-Engineering leader, nearly 20 years. Four Software Development Manager roles at Amazon over 10 years leading teams of up to 34, then engineering leadership at LTK and as VP of Technology at Sigo Seguros. I build AI-native engineering organizations, and I still ship.
+Engineering leader, nearly 20 years. A decade at Amazon as a Software Development Manager leading teams of up to 34, then engineering leadership at two startups. I build AI-native engineering organizations, and I still ship.
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production: [ELC](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a) and [SuperSmall](https://luma.com/qtfclu9a).
 
