@@ -1,6 +1,6 @@
 # Dan Monahan
 
-Nearly 20 years: teams of up to 34 at Amazon, then engineering leadership at two startups. Below is the work itself — live products you can open, source you can read.
+Twenty years building and leading engineering teams. Below is the work itself — live products you can open, source you can read.
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production.
 
