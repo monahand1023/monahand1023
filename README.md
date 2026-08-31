@@ -4,13 +4,13 @@ Engineering leader, nearly 20 years. A decade at Amazon as a Software Developmen
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production: [ELC](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a) and [SuperSmall](https://luma.com/qtfclu9a).
 
-The projects below are shipped end-to-end with AI-assisted development, across systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends. I lean toward local-first tools you can run and audit yourself.
-
-Trilingual: native English and Spanish, advanced Japanese (JLPT N2) — which is why several of the products below ship in Spanish or Japanese rather than in translation.
+**Open to VP / Head of Engineering roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
 
 ---
 
 ### Shipped products
+
+Every product below was built solo, end-to-end — the same AI-native practices I bring to a team, applied at n=1. Systems-level C, Go services, Python AI pipelines, Swift/iOS apps, TypeScript front-ends, with a bias toward local-first tools you can run and audit yourself. Several ship in Spanish or Japanese rather than in translation; I'm trilingual (native English and Spanish, advanced Japanese, JLPT N2).
 
 **[lens](https://lens.supersmall.ai)** — multi-agent AI audit engine, founded and built solo, live and taking paying customers.
 - 200+ checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO) — one reasoning agent per dimension, grounded in deterministic scanners, every finding cross-verified by multiple frontier models to cut false positives
@@ -19,25 +19,16 @@ Trilingual: native English and Spanish, advanced Japanese (JLPT N2) — which is
 
 **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
-**[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
-- Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
-- Stitches into a seamless 360° image on-device with a custom Metal GPU stitcher
-- Fully local: no cloud, no accounts, no backend, nothing collected
-
-**App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
-
 **[Kunkun](https://kunkun.io)** — Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
-- Context-aware corrections: politeness level, JLPT focus (N5–N1), and writer mode (learner vs. native) all shape the AI's response, with a plain-language explanation attached to every fix, not just the fix itself
+- Context-aware corrections — politeness level, JLPT focus (N5–N1), and learner-vs-native mode shape every response, and each fix carries a plain-language explanation, not just the fix
 - One backend, three surfaces — website, Chrome extension, Google Docs/Slides add-on — all reading live subscription state from the same API
 - Go Lambda on AWS Bedrock (Claude/Nova) for inference, Firebase auth, Stripe subscriptions
 
 **Live:** [kunkun.io](https://kunkun.io)
 
-**[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans with proper cultural context, not Google Translate.
-- AI content pipeline (image generation, model photography, copy) with human review as the quality gate before anything goes live
-- Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
+**[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of Photosynth: a guided ARKit sweep that corrects for the phone's own tracking error, stitched into a seamless 360° image on-device by a custom Metal GPU stitcher. No cloud, no accounts, no backend. **[App Store](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)**
 
-**Live:** [gaijin-smash.net](https://gaijin-smash.net)
+**[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand, built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard, and an AI content pipeline (image generation, model photography, copy) with human review as the quality gate. **[gaijin-smash.net](https://gaijin-smash.net)**
 
 *All four are proprietary — source not public.*
 
@@ -58,9 +49,8 @@ Trilingual: native English and Spanish, advanced Japanese (JLPT N2) — which is
 
 ### Speaking
 
-**[ELC: Production AI Agents, Beyond the Demo](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a)** — hosted, July 2026. Roundtable on the gap between AI agent demos and production-reliable systems: where agents actually run in production versus stay stuck in pilot, what breaks under real users, and how you monitor a system where there's no single correct output.
-
-**[SuperSmall: Vibe-Code to Production](https://luma.com/qtfclu9a)** — featured speaker, June 2026. Workshop on taking AI-generated prototypes (Lovable, Cursor, Replit) to production: auth, databases, deployment, performance, with live Q&A on attendees' own projects.
+- **[ELC: Production AI Agents, Beyond the Demo](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a)** — hosted, July 2026. Where agents actually run in production versus stay stuck in pilot, and how you monitor a system with no single correct output.
+- **[SuperSmall: Vibe-Code to Production](https://luma.com/qtfclu9a)** — featured speaker, June 2026. Taking AI-generated prototypes (Lovable, Cursor, Replit) to production: auth, databases, deployment, performance.
 
 ---
 
