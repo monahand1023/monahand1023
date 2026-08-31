@@ -6,6 +6,8 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 
 The projects below are shipped end-to-end with AI-assisted development, across systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends. I lean toward local-first tools you can run and audit yourself.
 
+Trilingual: English, Spanish, and Japanese (JLPT N2) — which is why several of the products below ship in Spanish or Japanese rather than in translation.
+
 ---
 
 ### Shipped products
@@ -62,4 +64,4 @@ The projects below are shipped end-to-end with AI-assisted development, across s
 
 ---
 
-Trilingual: English, Spanish, Japanese (JLPT N2). Find me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
+Find me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
