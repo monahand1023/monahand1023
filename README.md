@@ -2,7 +2,9 @@
 
 Engineering leader. Ex-Amazon Software Development Manager (10 years, up to 34 engineers across 3 teams), most recently VP of Technology at Sigo Seguros. I build AI-native engineering organizations, and I still ship.
 
-My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents) and using it to transform how engineering teams build software. The projects below are shipped end-to-end with AI-assisted development, spanning systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends, with a bias toward local-first tools you can run and audit yourself.
+My focus is AI on both sides: embedding it into products (RAG, agentic systems, voice agents), and using it to change how engineering teams build software. I've taken a 7-engineer team through that shift, shipping 6 customer-facing products in 10 months — three Spanish-language voice AI agents, WhatsApp quoting, and a broker platform connecting 15 carriers.
+
+The projects below are shipped end-to-end with AI-assisted development, across systems-level C, Go services, Python AI pipelines, Swift/iOS apps, and TypeScript front-ends. I lean toward local-first tools you can run and audit yourself.
 
 ---
 
@@ -11,11 +13,11 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 **[lens](https://lens.supersmall.ai)** — multi-agent AI audit engine, founded and built solo, live and taking paying customers.
 - 200+ checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO) — one reasoning agent per dimension, grounded in deterministic scanners, every finding cross-verified by multiple frontier models to cut false positives
 - Also ships as an MCP server, so the audit runs inline in Cursor, Claude Code, or Windsurf before the PR opens
-- One audit produces two reports (plain-English for founders, engineer-grade for the team), a CycloneDX/SPDX SBOM, and a prioritized fix-it roadmap
+- One audit produces two reports (plain-English for founders, engineer-grade for the team), a full dependency and license inventory (SBOM, in CycloneDX or SPDX format), and a prioritized fix-it roadmap
 
 **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
-**Panorama** — turns an iPhone into a spherical-panorama camera, a modern personal rebuild of the Photosynth experience.
+**Panorama** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
 - Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
 - Stitches into a seamless 360° image on-device with a custom Metal GPU stitcher
 - Fully local: no cloud, no accounts, no backend, nothing collected
@@ -35,7 +37,7 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 
 **Live:** [gaijin-smash.net](https://gaijin-smash.net)
 
-*All four are proprietary, closed source (source not public).*
+*All four are proprietary — source not public.*
 
 ---
 
