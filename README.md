@@ -8,9 +8,23 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems, 
 
 ---
 
+### Stack
+
+Every entry links to where it's used.
+
+| | |
+|---|---|
+| **Languages** | [Python](https://github.com/monahand1023/corpus) · [Go](https://github.com/monahand1023/imageclust) · [C](https://github.com/monahand1023/pdfcracker) · [Java](https://github.com/monahand1023/TPSGenerator) · [TypeScript](https://github.com/monahand1023/online-storefront) · [Swift](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972) |
+| **AI** | [Multi-agent systems](https://lens.supersmall.ai) · [RAG and hybrid search](https://github.com/monahand1023/corpus) · [MCP servers](https://github.com/monahand1023/corpus) · [AWS Bedrock](https://kunkun.io) · local inference with [Whisper](https://github.com/monahand1023/cleancut), [CLIP](https://github.com/monahand1023/imageclust), and [Ollama](https://github.com/monahand1023/rehearsal) |
+| **Systems** | [Metal GPU compute](https://github.com/monahand1023/pdfcracker) · [ARM NEON SIMD](https://github.com/monahand1023/pdfcracker) · [lock-free concurrency and virtual threads](https://github.com/monahand1023/TPSGenerator) · [ARKit](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972) |
+| **Web and mobile** | [Vue](https://github.com/monahand1023/online-storefront) · [React](https://github.com/monahand1023/imageclust) · [Spring Boot](https://github.com/monahand1023/TPSGenerator-Server) · [FastAPI](https://github.com/monahand1023/rehearsal) · [iOS](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972) · [Chrome extension and Google Docs add-on](https://kunkun.io) |
+| **Cloud and delivery** | [AWS Lambda](https://kunkun.io) · [CloudFront](https://gaijin-smash.net) · [Netlify Functions](https://github.com/monahand1023/online-storefront) · [Firebase](https://kunkun.io) · [Stripe](https://kunkun.io) · [Docker images on GHCR](https://github.com/monahand1023?tab=packages) · [PyPI](https://pypi.org/project/corpus-rag/) |
+
+---
+
 ### Shipped products
 
-Every product below was built solo, end-to-end — the same AI-native practices I bring to a team, applied at n=1. Systems-level C, Go services, Python AI pipelines, Swift/iOS apps, TypeScript front-ends, with a bias toward local-first tools you can run and audit yourself. Several ship in Spanish or Japanese rather than in translation; I'm trilingual (native English and Spanish, advanced Japanese, JLPT N2).
+Every product below was built solo, end-to-end, with a bias toward local-first tools you can run and audit yourself — the same AI-native practices I bring to a team, applied at n=1. Several ship in Spanish or Japanese rather than in translation; I'm trilingual (native English and Spanish, advanced Japanese, JLPT N2).
 
 **[lens](https://lens.supersmall.ai)** — multi-agent AI audit engine, founded and built solo, live and taking paying customers.
 - 200+ checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO) — one reasoning agent per dimension, grounded in deterministic scanners, every finding cross-verified by multiple frontier models to cut false positives
