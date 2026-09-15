@@ -22,7 +22,7 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems),
 
 Every product below was built solo, end-to-end — the same AI-native practices I bring to a team, applied at n=1. Several ship in Spanish or Japanese rather than in translation; I'm trilingual (native English and Spanish, advanced Japanese, JLPT N2).
 
-<a href="https://lens.supersmall.ai"><img src="images/lens.jpg" width="700" alt="lens homepage listing the dimensions it checks: secrets, auth, dependencies, performance, and more"></a>
+<a href="https://lens.supersmall.ai"><img src="images/lens.jpg" width="480" alt="lens homepage listing the dimensions it checks: secrets, auth, dependencies, performance, and more"></a>
 
 #### lens · **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
@@ -33,7 +33,7 @@ Multi-agent AI audit engine, founded and built solo, live and taking paying cust
 
 ---
 
-<a href="https://kunkun.io"><img src="images/kunkun.jpg" width="700" alt="Kunkun flagging an incorrect keigo construction in Japanese text and suggesting a fix"></a>
+<a href="https://kunkun.io"><img src="images/kunkun.jpg" width="480" alt="Kunkun flagging an incorrect keigo construction in Japanese text and suggesting a fix"></a>
 
 #### Kunkun · **Live:** [kunkun.io](https://kunkun.io)
 
@@ -44,7 +44,7 @@ Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
 
 ---
 
-<a href="https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972"><img src="images/panorama.jpg" width="700" alt="Panorama App Store screenshots: guided capture sweep and the stitched tiny-planet result"></a>
+<a href="https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972"><img src="images/panorama.jpg" width="480" alt="Panorama App Store screenshots: guided capture sweep and the stitched tiny-planet result"></a>
 
 #### Panorama · **App Store:** [apps.apple.com](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
 
@@ -55,7 +55,7 @@ Turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photos
 
 ---
 
-<a href="https://gaijin-smash.net"><img src="images/gaijin-smash.jpg" width="700" alt="Gaijin Smash storefront showing three streetwear product photos with Japanese artwork"></a>
+<a href="https://gaijin-smash.net"><img src="images/gaijin-smash.jpg" width="480" alt="Gaijin Smash storefront showing three streetwear product photos with Japanese artwork"></a>
 
 #### Gaijin Smash · **Live:** [gaijin-smash.net](https://gaijin-smash.net)
 
