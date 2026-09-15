@@ -22,40 +22,46 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems),
 
 Every product below was built solo, end-to-end — the same AI-native practices I bring to a team, applied at n=1. Several ship in Spanish or Japanese rather than in translation; I'm trilingual (native English and Spanish, advanced Japanese, JLPT N2).
 
-**[lens](https://lens.supersmall.ai)** — multi-agent AI audit engine, founded and built solo, live and taking paying customers.
+<a href="https://lens.supersmall.ai"><img src="images/lens.jpg" width="700" alt="lens homepage listing the dimensions it checks: secrets, auth, dependencies, performance, and more"></a>
+
+#### lens · **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
+
+Multi-agent AI audit engine, founded and built solo, live and taking paying customers.
 - 200+ checks across 26 dimensions of a codebase and a live site (security, performance, reliability, supply chain, cloud cost, accessibility, SEO) — one reasoning agent per dimension, grounded in deterministic scanners, every finding cross-verified by multiple frontier models to cut false positives
 - Also ships as an MCP server, so the audit runs inline in Cursor, Claude Code, or Windsurf before the PR opens
 - One audit produces two reports (plain-English for founders, engineer-grade for the team), a full dependency and license inventory (SBOM, in CycloneDX or SPDX format), and a prioritized fix-it roadmap
 
-**Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
+---
 
-<a href="https://lens.supersmall.ai"><img src="images/lens.jpg" width="700" alt="lens homepage listing the dimensions it checks: secrets, auth, dependencies, performance, and more"></a>
+<a href="https://kunkun.io"><img src="images/kunkun.jpg" width="700" alt="Kunkun flagging an incorrect keigo construction in Japanese text and suggesting a fix"></a>
 
-**[Kunkun](https://kunkun.io)** — Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
+#### Kunkun · **Live:** [kunkun.io](https://kunkun.io)
+
+Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
 - Context-aware corrections — politeness level, JLPT focus (N5–N1), and learner-vs-native mode shape every response, and each fix carries a plain-language explanation, not just the fix
 - One backend, three surfaces — website, Chrome extension, Google Docs/Slides add-on — all reading live subscription state from the same API
 - Go Lambda on AWS Bedrock (Claude/Nova) for inference, Firebase auth, Stripe subscriptions
 
-**Live:** [kunkun.io](https://kunkun.io)
+---
 
-<a href="https://kunkun.io"><img src="images/kunkun.jpg" width="700" alt="Kunkun flagging an incorrect keigo construction in Japanese text and suggesting a fix"></a>
+<a href="https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972"><img src="images/panorama.jpg" width="700" alt="Panorama App Store screenshots: guided capture sweep and the stitched tiny-planet result"></a>
 
-**[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
+#### Panorama · **App Store:** [apps.apple.com](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
+
+Turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
 - Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
 - Stitches into a seamless 360° image on-device with a custom Metal GPU stitcher
 - Fully local: no cloud, no accounts, no backend, nothing collected
 
-**App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
-
-<a href="https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972"><img src="images/panorama.jpg" width="700" alt="Panorama App Store screenshots: guided capture sweep and the stitched tiny-planet result"></a>
-
-**[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans with proper cultural context, not Google Translate.
-- AI content pipeline (image generation, model photography, copy) with human review as the quality gate before anything goes live
-- Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
-
-**Live:** [gaijin-smash.net](https://gaijin-smash.net)
+---
 
 <a href="https://gaijin-smash.net"><img src="images/gaijin-smash.jpg" width="700" alt="Gaijin Smash storefront showing three streetwear product photos with Japanese artwork"></a>
+
+#### Gaijin Smash · **Live:** [gaijin-smash.net](https://gaijin-smash.net)
+
+Bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans with proper cultural context, not Google Translate.
+- AI content pipeline (image generation, model photography, copy) with human review as the quality gate before anything goes live
+- Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
 
 *All four are proprietary — source not public.*
 
