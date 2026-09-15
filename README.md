@@ -29,12 +29,16 @@ Every product below was built solo, end-to-end — the same AI-native practices 
 
 **Live:** [lens.supersmall.ai](https://lens.supersmall.ai) · [sample report](https://lens.supersmall.ai/sample)
 
+<a href="https://lens.supersmall.ai"><img src="images/lens.jpg" width="700" alt="lens homepage listing the dimensions it checks: secrets, auth, dependencies, performance, and more"></a>
+
 **[Kunkun](https://kunkun.io)** — Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
 - Context-aware corrections — politeness level, JLPT focus (N5–N1), and learner-vs-native mode shape every response, and each fix carries a plain-language explanation, not just the fix
 - One backend, three surfaces — website, Chrome extension, Google Docs/Slides add-on — all reading live subscription state from the same API
 - Go Lambda on AWS Bedrock (Claude/Nova) for inference, Firebase auth, Stripe subscriptions
 
 **Live:** [kunkun.io](https://kunkun.io)
+
+<a href="https://kunkun.io"><img src="images/kunkun.jpg" width="700" alt="Kunkun flagging an incorrect keigo construction in Japanese text and suggesting a fix"></a>
 
 **[Panorama](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)** — turns an iPhone into a spherical-panorama camera, a modern rebuild of the Photosynth experience.
 - Guided ARKit sweep auto-captures frames and corrects for the phone's own tracking error
@@ -43,11 +47,15 @@ Every product below was built solo, end-to-end — the same AI-native practices 
 
 **App Store:** [Panorama: Spherical Camera](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
 
+<a href="https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972"><img src="images/panorama.jpg" width="700" alt="Panorama App Store screenshots: guided capture sweep and the stitched tiny-planet result"></a>
+
 **[Gaijin Smash](https://gaijin-smash.net)** — bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans with proper cultural context, not Google Translate.
 - AI content pipeline (image generation, model photography, copy) with human review as the quality gate before anything goes live
 - Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
 
 **Live:** [gaijin-smash.net](https://gaijin-smash.net)
+
+<a href="https://gaijin-smash.net"><img src="images/gaijin-smash.jpg" width="700" alt="Gaijin Smash storefront showing three streetwear product photos with Japanese artwork"></a>
 
 *All four are proprietary — source not public.*
 
