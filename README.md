@@ -8,16 +8,6 @@ My focus is AI on both sides: embedding it into products (RAG, agentic systems),
 
 ---
 
-### Stack
-
-- **Languages** — [Python](https://github.com/monahand1023/corpus) · [Go](https://github.com/monahand1023/imageclust) · [C](https://github.com/monahand1023/pdfcracker) · [Java](https://github.com/monahand1023/TPSGenerator) · [TypeScript](https://github.com/monahand1023/online-storefront) · [Swift](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
-- **AI** — [Multi-agent systems](https://lens.supersmall.ai/sample) · [RAG and hybrid search](https://github.com/monahand1023/corpus) · [MCP servers](https://github.com/monahand1023/corpus) · [AWS Bedrock](https://kunkun.io) · Local inference ([Whisper](https://github.com/monahand1023/cleancut) · [CLIP](https://github.com/monahand1023/imageclust) · [Ollama](https://github.com/monahand1023/rehearsal))
-- **Systems** — [Metal GPU compute](https://github.com/monahand1023/pdfcracker) · [ARM NEON SIMD](https://github.com/monahand1023/pdfcracker) · [Lock-free concurrency and virtual threads](https://github.com/monahand1023/TPSGenerator)
-- **Web and mobile** — [Vue](https://github.com/monahand1023/online-storefront) · [React](https://github.com/monahand1023/imageclust) · [Spring Boot](https://github.com/monahand1023/TPSGenerator-Server) · [FastAPI](https://github.com/monahand1023/rehearsal) · [iOS (Swift, ARKit)](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972) · [Chrome extension](https://kunkun.io) · [Google Docs add-on](https://kunkun.io)
-- **Cloud and delivery** — [AWS Lambda](https://kunkun.io) · [CloudFront](https://gaijin-smash.net) · [Netlify Functions](https://github.com/monahand1023/online-storefront) · [Docker images on GHCR](https://github.com/monahand1023?tab=packages) · [PyPI](https://pypi.org/project/corpus-rag/) · [App Store](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
-
----
-
 ### Shipped products
 
 Every product below was built solo, end-to-end — the same AI-native practices I bring to a team, applied at n=1. Several ship in Spanish or Japanese rather than in translation; I'm trilingual (native English and Spanish, advanced Japanese, JLPT N2).
@@ -40,7 +30,7 @@ Multi-agent AI audit engine, founded and built solo, live and taking paying cust
 Japanese grammar-checking SaaS, built and run solo: Grammarly for Japanese.
 - Context-aware corrections — politeness level, JLPT focus (N5–N1), and learner-vs-native mode shape every response, and each fix carries a plain-language explanation, not just the fix
 - One backend, three surfaces — website, Chrome extension, Google Docs/Slides add-on — all reading live subscription state from the same API
-- Go Lambda on AWS Bedrock (Claude/Nova) for inference, Firebase auth, Stripe subscriptions
+- Go Lambda on AWS Bedrock (Claude/Nova) for inference, Firebase auth, Stripe subscriptions wired in and ready — free during the current beta
 
 ---
 
@@ -64,6 +54,16 @@ Bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans wit
 - Built solo end-to-end: storefront, checkout, CloudFront-backed asset pipeline, admin dashboard
 
 *All four are proprietary — source not public.*
+
+---
+
+### Stack
+
+- **Languages** — [Python](https://github.com/monahand1023/corpus) · [Go](https://github.com/monahand1023/imageclust) · [C](https://github.com/monahand1023/pdfcracker) · [Java](https://github.com/monahand1023/TPSGenerator) · [TypeScript](https://github.com/monahand1023/online-storefront) · [Swift](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
+- **AI** — [Multi-agent systems](https://lens.supersmall.ai/sample) · [RAG and hybrid search](https://github.com/monahand1023/corpus) · [MCP servers](https://github.com/monahand1023/corpus) · [AWS Bedrock](https://kunkun.io) · Local inference ([Whisper](https://github.com/monahand1023/cleancut) · [CLIP](https://github.com/monahand1023/imageclust) · [Ollama](https://github.com/monahand1023/rehearsal))
+- **Systems** — [Metal GPU compute](https://github.com/monahand1023/pdfcracker) · [ARM NEON SIMD](https://github.com/monahand1023/pdfcracker) · [Lock-free concurrency and virtual threads](https://github.com/monahand1023/TPSGenerator)
+- **Web and mobile** — [Vue](https://github.com/monahand1023/online-storefront) · [React](https://github.com/monahand1023/imageclust) · [Spring Boot](https://github.com/monahand1023/TPSGenerator-Server) · [FastAPI](https://github.com/monahand1023/rehearsal) · [iOS (Swift, ARKit)](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972) · [Chrome extension](https://kunkun.io) · [Google Docs add-on](https://kunkun.io)
+- **Cloud and delivery** — [AWS Lambda](https://kunkun.io) · [CloudFront](https://gaijin-smash.net) · [Netlify Functions](https://github.com/monahand1023/online-storefront) · [Docker images on GHCR](https://github.com/monahand1023?tab=packages) · [PyPI](https://pypi.org/project/corpus-rag/) · [App Store](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
 
 ---
 
