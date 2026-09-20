@@ -65,10 +65,10 @@ Bilingual (EN/JA) direct-to-consumer streetwear brand: real Japanese slogans wit
 
 ---
 
-<a href="https://github.com/monahand1023/lightsaber_fx"><img src="images/lightsaber-baseball.gif" width="480" alt="Split screen: a raw home-video baseball swing on the left, the same clip on the right with the bat replaced by a glowing lightsaber blade, matching light spill, and synthesized hum"></a>
-<a href="https://github.com/monahand1023/lightsaber_fx"><img src="images/lightsaber-thrust.gif" width="480" alt="Split screen: a raw fencing thrust on the left, the same clip on the right with the foil replaced by a glowing blue blade against a black background"></a>
+<a href="https://github.com/monahand1023/glowblade"><img src="images/glowblade-baseball.gif" width="480" alt="Split screen: a raw home-video baseball swing on the left, the same clip on the right with the bat replaced by a glowing energy blade, matching light spill, and synthesized hum"></a>
+<a href="https://github.com/monahand1023/glowblade"><img src="images/glowblade-thrust.gif" width="480" alt="Split screen: a raw fencing thrust on the left, the same clip on the right with the foil replaced by a glowing blue blade against a black background"></a>
 
-#### lightsaber_fx · **Source:** [github.com/monahand1023/lightsaber_fx](https://github.com/monahand1023/lightsaber_fx)
+#### Glowblade · **Source:** [github.com/monahand1023/glowblade](https://github.com/monahand1023/glowblade)
 
 Turn a home video of someone swinging a stick into a glowing-blade VFX clip with matching synthesized sound — usually without clicking anything.
 - SAM2 tracks the swung object frame-by-frame; blade geometry, light spill, and audio are all derived from that tracking data, not templated
@@ -76,7 +76,7 @@ Turn a home video of someone swinging a stick into a glowing-blade VFX clip with
 - Fully local by default — an optional Gemini call only helps multi-object auto-detection; nothing else leaves your machine
 - Honest about its own limits: ships a tested-clips table of exactly what works and what doesn't, and declines to guess rather than propose a bad detection
 
-*lens, Kunkun, Panorama, and Gaijin Smash are proprietary — source not public. lightsaber_fx is open source, linked above.*
+*lens, Kunkun, Panorama, and Gaijin Smash are proprietary — source not public. Glowblade is open source, linked above.*
 
 ---
 
