@@ -4,8 +4,6 @@ Twenty years building and leading engineering teams. Below is the work itself â€
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production.
 
-At Amazon I built teams from scratch and grew engineers into senior roles. At Sigo I took a small engineering team from ad-hoc AI use to a governed, spec-driven workflow.
-
 **Open to engineering leadership roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
 
 ---
