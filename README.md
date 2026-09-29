@@ -4,11 +4,15 @@ Twenty years building and leading engineering teams. Below is the work itself �
 
 My focus is AI on both sides: embedding it into products (RAG, agentic systems), and using it to change how engineering teams build software. I host and speak on getting agents past the demo and into production.
 
-**Open to engineering leadership and Forward Deployed Engineer (FDE) roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
+At Amazon I built teams from scratch and grew engineers into senior roles. At Sigo I took a small engineering team from ad-hoc AI use to a governed, spec-driven workflow.
+
+**Open to engineering leadership roles.** Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
 
 ---
 
 ### Stack
+
+*Built with AI-assisted development (Claude Code). My depth is architecture, judgment, and delivery.*
 
 - **Languages** — [Python](https://github.com/monahand1023/corpus) · [Go](https://github.com/monahand1023/imageclust) · [C](https://github.com/monahand1023/pdfcracker) · [Java](https://github.com/monahand1023/TPSGenerator) · [TypeScript](https://github.com/monahand1023/online-storefront) · [Swift](https://apps.apple.com/us/app/panorama-spherical-camera/id6786430972)
 - **AI** — [Multi-agent systems](https://lens.supersmall.ai/sample) · [RAG and hybrid search](https://github.com/monahand1023/corpus) · [MCP servers](https://github.com/monahand1023/corpus) · [AWS Bedrock](https://kunkun.io) · [Video object tracking (SAM2)](https://github.com/monahand1023/glowblade) · Local inference ([Whisper](https://github.com/monahand1023/cleancut) · [CLIP](https://github.com/monahand1023/imageclust) · [Ollama](https://github.com/monahand1023/rehearsal))
