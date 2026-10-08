@@ -8,6 +8,13 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
 
 ---
 
+### Speaking
+
+- **[ELC: Production AI Agents, Beyond the Demo](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a)** — hosted, July 2026. Where agents actually run in production versus stay stuck in pilot, and how you monitor a system with no single correct output.
+- **[SuperSmall: Vibe-Code to Production](https://luma.com/qtfclu9a)** — featured speaker, June 2026. Taking AI-generated prototypes (Lovable, Cursor, Replit) to production: auth, databases, deployment, performance.
+
+---
+
 ### Stack
 
 *Built with AI-assisted development (Claude Code). My depth is architecture, judgment, and delivery.*
@@ -96,15 +103,3 @@ Local-first tools you can run and audit yourself.
 | **[claude-code-skills](https://github.com/monahand1023/claude-code-skills)** | 12 drop-in Claude Code skills for dev workflow and AWS ops. Auto-discover your AWS resources at runtime, no config files. | `Tooling` `AWS` `DX` |
 | **[TPSGenerator](https://github.com/monahand1023/TPSGenerator)** | Java load tester for HTTP APIs on a Java 21 virtual-thread engine: stable, ramp-up, spike, and custom traffic patterns, chained scenarios, lock-free HdrHistogram metrics, circuit breaker, real-time resource monitoring. Pairs with [TPSGenerator-Server](https://github.com/monahand1023/TPSGenerator-Server). | `Java` `Concurrency` |
 | **[online-storefront](https://github.com/monahand1023/online-storefront)** | Vue 3 + TypeScript storefront for small selling events: order form, Stripe Checkout, and a signed webhook that emails the customer and logs the order to a Google Sheet. No database, no server; fork it, edit one config file, deploy to Netlify. | `TypeScript` `Vue` `Stripe` |
-
----
-
-### Speaking
-
-- **[ELC: Production AI Agents, Beyond the Demo](https://elc.community/public/events/roundtable-production-ai-agents-beyond-the-demo-fzaux0ry1a)** — hosted, July 2026. Where agents actually run in production versus stay stuck in pilot, and how you monitor a system with no single correct output.
-- **[SuperSmall: Vibe-Code to Production](https://luma.com/qtfclu9a)** — featured speaker, June 2026. Taking AI-generated prototypes (Lovable, Cursor, Replit) to production: auth, databases, deployment, performance.
-
----
-
-Find me on [LinkedIn](https://www.linkedin.com/in/danielemonahan/).
-
